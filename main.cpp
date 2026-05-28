@@ -32,9 +32,9 @@ int main()
 }
 
 string convertToLower(string textinput){
-    for (char &c : textinput)
+    for (char &c : textinput) //loops through each char and directly modifies
     {
-        c = tolower(c);
+        c = tolower(c); //lowercase v in string
     }
     return textinput;
 }
